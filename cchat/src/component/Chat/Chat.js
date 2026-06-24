@@ -7,7 +7,7 @@ import Message from '../Message/Message';
 import ReactScrollToBottom from 'react-scroll-to-bottom';
 import closeIcon from '../../images/closeicon.png';
 
-const ENDPOINT = 'http://localhost:4500';
+const ENDPOINT = 'https://realtimechatapplicationbackend-lbkh.onrender.com';
 let socket;
 
 const Chat = () => {
