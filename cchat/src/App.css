@@ -1,0 +1,61 @@
+body{
+  margin:0;
+}
+@media (max-aspect-ratio: 7/10){
+.joincontainer{
+  width:50% !important;
+  /* display:flex;
+  flex-direction: column;
+  align-items: center; */
+  border:2px solid white;
+}
+ .joincontainer>img{
+  width:10vmax !important;
+   /* height:10vmax; */
+} 
+.joincontainer>h1{
+ 
+  font-size: 6vwv !important;
+  width: 55 !important;
+  border-bottom:0.2vmax solid white !important;
+  padding:3vw !important;
+} 
+
+#joinInput{
+  position: relative;
+  height:10vmax !important;
+  width:89% !important;
+  padding:1.5vmax !important;
+  font-size:3vw !important;
+  margin:5!important;
+  padding:center;
+ align-items: center;
+  /* box-sizing: border-box; */
+}
+.joinbtn{
+   width:10vmax;
+  padding:1.5vmax;
+  border:none;
+  outline:none;
+  font-size: 1.2vmax;
+  background-color: crimson;
+  color:white;
+  font-family: "roboto";
+  transition: all 0.3s;
+  cursor: pointer;
+}
+#chatInput{
+ padding:2vmax;
+ font-size:4vw !important;
+}
+ .messageBox {
+  width:70% !important;
+  padding: 3vmax !important;
+  margin: 3vmax important;
+  border-radius:0.5vmax;
+  clear: both;
+ display:inline-block;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+}
